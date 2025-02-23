@@ -1,0 +1,34 @@
+{
+  "id": "josé_antonio_marçal_1808",
+  "name": {
+    "first": "José",
+    "family_name": "Antonio Marçal"
+  },
+  "avatar": "",
+  "sex": "F",
+  "birty": {
+    "date": {
+      "year": 1808
+    },
+    "location": {
+      "city": "Leopoldina",
+      "state": "Minas Gerais",
+      "country": "Brasil"
+    }
+  },
+  "decease": {
+    "deceased": true
+  },
+  "relationships": {
+    "children": [],
+    "parents": [],
+    "brothers": [],
+    "partner": [
+      "angélica_maria_marçal_1818"
+    ]
+  },
+  "notes": "",
+  "links": {
+    "family_search": "https://www.familysearch.org/en/tree/person/details/GL6X-5X5"
+  }
+}
