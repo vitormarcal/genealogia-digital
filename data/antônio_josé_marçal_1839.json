@@ -1,0 +1,48 @@
+{
+  "id": "antônio_josé_marçal_1839",
+  "name": {
+    "first": "Antônio",
+    "family_name": "José Marçal"
+  },
+  "avatar": "",
+  "sex": "M",
+  "birty": {
+    "date": {
+      "year": 1839
+    },
+    "location": {
+      "city": "Astolfo Dutra",
+      "state": "Minas Gerais",
+      "country": "Brasil"
+    }
+  },
+  "decease": {
+    "deceased": true,
+    "date": {
+      "year": 1916,
+      "month": 6,
+      "day": 15
+    },
+    "location": {
+      "city": "Alvarenga",
+      "state": "Minas Gerais",
+      "country": "Brasil"
+    }
+
+  },
+  "relationships": {
+    "children": [],
+    "parents": [
+      "josé_antonio_marçal_1808",
+      "angélica_maria_marçal_1818"
+    ],
+    "brothers": [],
+    "partner": [
+
+    ]
+  },
+  "notes": "",
+  "links": {
+    "family_search": "https://www.familysearch.org/en/tree/person/KL78-QM7"
+  }
+}
