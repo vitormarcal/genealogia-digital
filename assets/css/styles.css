@@ -36,15 +36,15 @@ h1 {
 }
 
 .card img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
 }
 
 .card h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #34495e;
     margin-bottom: 0.5rem;
 }
@@ -57,7 +57,20 @@ h1 {
 /* Grid de pessoas */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     padding: 2rem;
+}
+
+/* Link de voltar */
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
 }

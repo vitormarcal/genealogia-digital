@@ -6,7 +6,7 @@
   },
   "avatar": "",
   "sex": "M",
-  "birty": {
+  "birth": {
     "date": {
       "year": 1808
     },
@@ -20,10 +20,12 @@
     "deceased": true
   },
   "relationships": {
-    "children": [],
+    "children": [
+      "antônio_josé_marçal_1839"
+    ],
     "parents": [],
     "brothers": [],
-    "partner": [
+    "partners": [
       "angélica_maria_marçal_1818"
     ]
   },

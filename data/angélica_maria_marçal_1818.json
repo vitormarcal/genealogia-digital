@@ -5,8 +5,8 @@
     "family_name": "Maria Marçal"
   },
   "avatar": "",
-  "sex": "M",
-  "birty": {
+  "sex": "F",
+  "birth": {
     "date": {
       "year": 1818
     },
@@ -20,10 +20,12 @@
     "deceased": true
   },
   "relationships": {
-    "children": [],
+    "children": [
+      "antônio_josé_marçal_1839"
+    ],
     "parents": [],
     "brothers": [],
-    "partner": [
+    "partners": [
       "josé_antonio_marçal_1808"
     ]
   },

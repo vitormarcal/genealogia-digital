@@ -1,17 +1,17 @@
 {
-  "id": "antônio_josé_marçal_1839",
+  "id": "maria_theodora_de_jesus_1854",
   "name": {
-    "first": "Antônio",
-    "family_name": "José Marçal"
+    "first": "Maria",
+    "family_name": "Theodora de Jesus"
   },
   "avatar": "",
-  "sex": "M",
+  "sex": "F",
   "birth": {
     "date": {
-      "year": 1839
+      "year": 1854
     },
     "location": {
-      "city": "Astolfo Dutra",
+      "city": "Guidoval",
       "state": "Minas Gerais",
       "country": "Brasil"
     }
@@ -19,9 +19,6 @@
   "decease": {
     "deceased": true,
     "date": {
-      "year": 1916,
-      "month": 6,
-      "day": 15
     },
     "location": {
       "city": "Alvarenga",
@@ -35,16 +32,15 @@
 
     ],
     "parents": [
-      "josé_antonio_marçal_1808",
-      "angélica_maria_marçal_1818"
+
     ],
     "brothers": [],
     "partners": [
-      "maria_theodora_de_jesus_1854"
+      "antônio_josé_marçal_1839"
     ]
   },
   "notes": "",
   "links": {
-    "family_search": "https://www.familysearch.org/en/tree/person/KL78-QM7"
+    "family_search": "https://www.familysearch.org/pt/tree/person/about/LCFV-9K3"
   }
 }

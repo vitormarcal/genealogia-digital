@@ -8,12 +8,15 @@ const person = people[route.params.id] ?? null;
   <div v-if="person" class="container">
     <div class="card">
       <img
-          :src="person.foto || '/fotos/default.png'"
-          alt="Foto"
+          :src="person.avatar || '/fotos/default.png'"
+          alt="Foto de {{ person.name.first }}"
           class="rounded-full"
       />
       <h1>{{ person.name.first }} {{ person.name.family_name }}</h1>
-      <p>📅 Nascimento: {{ person.birty.data }} - {{ person.birty.location.city }}</p>
+      <p>
+        📅 Nascimento: {{ person.birth.date.year }} - {{ person.birth.location.city }},
+        {{ person.birth.location.state }}
+      </p>
       <h2>Relacionamentos</h2>
       <ul>
         <li v-for="parenteId in person.relationships?.parents ?? []" :key="parenteId">
@@ -26,14 +29,5 @@ const person = people[route.params.id] ?? null;
     </div>
     <NuxtLink to="/" class="back-link">⬅️ Voltar</NuxtLink>
   </div>
-  <p v-else>person não encontrada.</p>
+  <p v-else>Personagem não encontrado.</p>
 </template>
-
-<style scoped>
-.back-link {
-  display: block;
-  text-align: center;
-  margin-top: 1rem;
-  color: #3498db;
-}
-</style>
